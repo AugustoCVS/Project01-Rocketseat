@@ -1,9 +1,13 @@
-import { useState } from 'react'
+import { useState } from 'react';
+import { Header } from './components/Header/Header';
+import './css/global.css'
 
 function App() {
-
   return (
-    <h1>Hello Word</h1>
+    <div>
+      <Header/>
+      <h1>Hello Word</h1>
+    </div>
   )
 }
 
